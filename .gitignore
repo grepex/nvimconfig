@@ -1,0 +1,17 @@
+# Neovim / Lua
+*.swp
+*.swo
+*.swn
+*~
+tags
+tags.temp
+
+# Plugin managers / caches
+lazy-lock.json          # (if using lazy.nvim)
+mason/                  # (language servers, debug adapters, etc.)
+packer_compiled.lua     # (old packer)
+site/                   # (sometimes used)
+
+# Logs and temp
+*.log
+.cache/
