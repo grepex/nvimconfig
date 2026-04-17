@@ -10,7 +10,14 @@ vim.opt.smartindent = true
 vim.opt.termguicolors = true
 vim.opt.undofile = true
 vim.opt.number = true
-
+vim.o.splitright = true
+vim.o.splitbelow = true
+vim.o.list = true
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.o.inccommand = 'split'
+vim.o.cursorline = true
+vim.o.scrolloff = 10
+vim.o.confirm = true
 
 -- Smart Relative Numbers
 vim.api.nvim_create_autocmd({ "InsertEnter" }, {
